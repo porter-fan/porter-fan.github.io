@@ -27,23 +27,8 @@
 	<div id="app">
 		<img class="cover" src="./image/cat.png" alt="">
 	</div>
-	<button id="test">测试接口调用</button>
-	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script>
-		$('#test').click(function(){
-			$.ajax({
-		    type: "post",
-			    url: 'http://51zs.flow360.cn/api/login',
-			    dataType: "json",
-			    data: {
-			    	username: 'zs001',
-					password: 1
-			    },
-			    success: function (res) {
-			      	console.log(res)
-			    }
-			})
-		})
+
 	</script>
 
 </body>
